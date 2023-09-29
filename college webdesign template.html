@@ -1,0 +1,485 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <script src="https://kit.fontawesome.com/d91028526d.js" crossorigin="anonymous"></script>
+  <title>College webdesign template</title>
+  <style>
+    ul {
+      list-style-type: none;
+      margin: 0;
+      padding: 0;
+      overflow: hidden;
+      background-color: #fffefe;
+      color: #111;
+    }
+
+    li {
+      float: right;
+    }
+
+    li a {
+      display: block;
+      color: rgb(0, 0, 0);
+      text-align: center;
+      padding: 14px 16px;
+      text-decoration: none;
+    }
+
+    li a:hover:not(.active) {
+      background-color: #0ec47e;
+    }
+
+    .active {
+      background-color: white;
+      color: #111;
+    }
+
+    .home {
+      color: #0ec47e;
+    }
+
+    li a:hover:not(.active) {
+      background-color: #0ec47e;
+    }
+
+    .college {
+      margin-left: 500px;
+    }
+
+    p.small {
+      line-height: 0.7;
+    }
+
+    .index {
+      position: absolute;
+      background: rgb(250, 250, 223);
+      width: 35%;
+      left: 170px;
+      top: 250px;
+      height: 300px;
+      color: rgb(3, 12, 41)
+    }
+
+    p {
+      margin: 25px 0 0 25px;
+    }
+
+    h1 {
+      margin: 0 0 0 25px;
+    }
+
+    .A {
+      border-bottom: 6px solid #0ab87e;
+      width: 50px;
+      margin: 25px 0 0 25px;
+    }
+
+    h3 {
+      margin: 35px 0 0 25px;
+    }
+
+    .button {
+      background-color: #0ab87e;
+      border: none;
+      color: white;
+      padding: 10px 22px;
+      text-align: center;
+      text-decoration: none;
+      display: inline-block;
+      font-size: 16px;
+      margin: 4px 2px;
+      cursor: pointer;
+      margin: 25px 0 0 25px;
+    }
+
+    .big2 {
+      margin: 75px 0 0 180px;
+    }
+
+    .AA {
+      border-bottom: 6px solid #0ab87e;
+      width: 50px;
+    }
+
+    .fa-solid {
+      color: #0ab87e;
+    }
+
+    .fa-regular {
+      color: #0ab87e;
+    }
+
+    .coloum {
+      column-count: 2;
+      column-gap: 10px;
+      column-rule-style: solid;
+      column-rule-width: 1px;
+      width: 45%;
+      top: 250px;
+      height: 300px;
+      margin: -15% 0 0 50%;
+    }
+
+    h5 {
+      color: #0ab87e;
+      border-bottom: 3px solid #0ab87e;
+      width: 15%;
+      margin: 0 0 0 8%;
+    }
+
+    .online {
+      column-count: 2;
+      column-gap: 10px;
+      column-rule-style: solid;
+      column-rule-width: 1px;
+      width: 45%;
+      top: 250px;
+      height: 250px;
+      margin: -4% 0 0 50%;
+    }
+
+    .Gallery {
+      border-bottom: 6px solid #0ab87e;
+      width: 50px;
+      margin: 0 0 0 13%;
+      line-height: 2;
+    }
+
+    .close {
+      margin: 4% 0 0 13%;
+    }
+
+    .active {
+      text-align: center;
+      background-color: rgb(250, 243, 229);
+    }
+
+    .about {
+      border-bottom: 3px solid #0ab87e;
+      width: 4%;
+      line-height: 50px;
+      margin: 0 0 0 45%;
+
+    }
+
+    .click {
+      background-color: #0ab87e;
+      border: none;
+      color: white;
+      padding: 10px 22px;
+      text-align: center;
+      text-decoration: none;
+      display: inline-block;
+      font-size: 16px;
+      margin: 4px 2px;
+      cursor: pointer;
+      margin: 10px 0 0 10px;
+    }
+
+    .trend {
+      margin: 0 0 0 13%;
+
+    }
+
+    .BB {
+      border-bottom: 6px solid #0ab87e;
+      width: 50px;
+      margin: 10px 0 0 170px;
+    }
+
+    .gold {
+      margin-right: 200px;
+      margin-top: 20px;
+    }
+
+    .management {
+      background: rgba(25, 1, 51, 0.823);
+      color: white;
+      border: rgba(25, 1, 51, 0.823);
+      width: 20%;
+      height: 20%;
+      padding: 20px;
+      margin: 0 0 0 0.1%;
+    }
+
+    .price1 {
+      color: #0ec47e;
+    }
+
+    .teaching {
+      background: rgba(49, 6, 95, 0.823);
+      color: white;
+      border: rgba(25, 1, 51, 0.823);
+      width: 20%;
+      height: 20%;
+      padding: 20px;
+      margin: -16.4% 0 0 23.1%;
+    }
+
+    .Arts {
+      background: rgba(25, 1, 51, 0.823);
+      color: white;
+      border: rgba(25, 1, 51, 0.823);
+      width: 20%;
+      height: 20%;
+      padding: 20px;
+      margin: -16.3% 0 0 46.1%;
+    }
+
+    .master {
+      background: rgba(49, 6, 95, 0.823);
+      color: white;
+      border: rgba(25, 1, 51, 0.823);
+      width: 20%;
+      height: 20%;
+      padding: 20px;
+      margin: 0 0 0 0.1%;
+    }
+
+    .medicine {
+      background: rgba(25, 1, 51, 0.823);
+      color: white;
+      border: rgba(25, 1, 51, 0.823);
+      width: 20%;
+      height: 20%;
+      padding: 20px;
+      margin: -16.4% 0 0 23.1%;
+    }
+
+    .applied {
+      background: rgba(49, 6, 95, 0.823);
+      color: white;
+      border: rgba(25, 1, 51, 0.823);
+      width: 20%;
+      height: 20%;
+      padding: 20px;
+      margin: -16.4% 0 0 46.1%;
+    }
+    .different {
+       position: relative;
+       z-index: +1;
+       margin-top: -38%;
+       left:300px;
+       
+    }
+    .Register{
+      text-align: center;
+      margin: 100px 0 0 0;
+      background-color: rgb(238, 231, 231);
+      padding: 30px;
+    }
+
+    .CC {
+      border-bottom: 6px solid #0ab87e;
+      width: 75px;
+      margin:20px 0 20px 610px;
+    }
+    .outstanding{
+      margin-top: 70px;
+    }
+
+    .Useful{
+      margin:-13% 0 0 25%;
+    }
+    .Treanding {
+     margin: -14% 0 0 50%;
+    }
+    .Info{
+      margin:-14% 0 0 75%;
+    }
+
+  </style>
+</head>
+
+<body>
+
+  <ul>
+    <li><a href="#Registr">Register</a></li>
+    <li><a href="#Contact">Contact</a></li>
+    <li><a href="#Gallery">Gallery</a></li>
+    <li><a href="#Teachers">Teachers</a></li>
+    <li><a href="#Courses">Courses</a></li>
+    <li><a href="#About">About</a></li>
+    <li><a class="home" href="#Home">Home</a></li>
+    <li style="float:left"><a class="active" href="#Person">
+        <h3>Person</h3>
+      </a></li><br>
+  </ul>
+  <img class="college" src="img/college.jpg" alt="college" width="800" height="500">
+
+
+  <div class="index">
+    <p>Welcome to Pesrson College!</p>
+    <h1 class="big">
+      Your carrer <br>
+      Start with Us.</h1>
+    <div class="A"></div>
+    <h3>Proin Gravida velit Auctor Aliquet Aenean<br>
+      sollicitudin, Lorem Quis Bibendum Auctor Elit.
+    </h3>
+    <button class="button">READ MORE</button>
+  </div>
+
+
+  <div class="big2">
+    <h2>Why choose Us</h2>
+    <div class="AA"></div>
+    <h4> Proin gravida velit auctor Aliquet<br>
+      anean sollicitudin, lorem quis<br>
+      bibendum autor elit</h4>
+  </div>
+
+  <div class="coloum">
+    <h1><i class="fa-solid fa-people-group"></i></h1>
+    <h3>Certified Teachers</h3>
+    <p>I am a text block.edit<br>
+      button to change this text.<br>
+      Lorem ipsum dolor.</p><br>
+    <h5>MORE</h5>
+
+
+    <h1><i class="fa-regular fa-clipboard"></i></h1>
+    <h3>Treanding courses</h3>
+    <p>I am a text block.edit<br>
+      button to change this text.<br>
+      Lorem ipsum dolor.</p><br>
+    <h5>MORE</h5>
+  </div>
+
+  <div class="online">
+    <h1><i class="fa-solid fa-graduation-cap"></i></h1>
+    <h3>Certification</h3>
+    <p>I am a text block.edit<br>
+      button to change this text.<br>
+      Lorem ipsum dolor.</p><br>
+    <h5>MORE</h5>
+
+    <h1><i class="fa-solid fa-desktop"></i></h1>
+    <h3>Online Courses</h3>
+    <p>I am a text block.edit<br>
+      button to change this text.<br>
+      Lorem ipsum dolor.</p><br>
+    <h5>MORE</h5>
+  </div>
+
+  <h1 class="Gallery">Gallery</h1>
+  <div class="close">
+    <img src="img/computer1.jpg" alt="com" width="280" height="200">
+    <img src="img/computer2.jpg" alt="com" width="280" height="200">
+    <img src="img/comouter3.jpg" alt="com" width="280" height="200">
+    <img src="img/computer 4.jpg" alt="com" width="280" height="200">
+    <img src="img/computer 5.jpg" alt="com" width="280" height="200">
+    <img src="img/computer 6.jpg" alt="com" width="280" height="200">
+    <img src="img/computer 7.jpg" alt="com" width="280" height="200">
+    <img src="img/computer 8.jpg" alt="com" width="280" height="200">
+  </div>
+
+  <div class="active">
+    <h1 class="about">About</h1>
+    <h4>We are an outstanding college proin gravida velit auctor aliquet aenen sollicitudin,lorem quis</h4>
+    <h4 class="center">bibendum</h4>
+    <button class="click">READ MORE</button>
+  </div>
+
+  <h1 class="trend">Trending Courses</h1>
+  <div class="BB"></div>
+  <div>
+    <img class="gold" src="img/gold background.jpg" alt="college" width="85%" height="600">
+
+
+    <div class="different">
+        <div class="management">
+        <p>3 Years</p><br>
+        <h1>Business<br>
+          Management</h1>
+        <p class="price1">Price:$400</p>
+      </div>
+
+      <div class="teaching">
+        <p>4 Years </p><br>
+        <h1>Methematics<br>
+          For Teaching</h1>
+        <p class="price1">Price:$550</p>
+      </div>
+
+      <div class="Arts">
+        <p>3 Years</p><br>
+        <h1>Arts &<br>
+          Humanities</h1>
+        <p class="price1">Price:$450</p>
+      </div>
+
+      <div class=" master">
+        <p> 4 Years</p><br>
+        <h1>Master of<br>
+          Business</h1>
+        <p class="price1">Price$:550</p>
+      </div>
+
+      <div class="medicine">
+        <p>5 Years</p><br>
+        <h1> Life Science &<br>
+          Medicine</h1>
+        <p class="price1">Price:$650</p>
+      </div>
+
+      <div class="applied">
+        <p>4 Years</p><br>
+        <h1>Applied<br>
+          Mathematics</h1>
+        <p class="price1">Price:$550</p>
+      </div>
+    </div>
+
+<div class="Register">
+  <p class="life">Change Your Life</p>
+  <div class="CC"></div>
+  <h1>Start Your New Career With Us!</h1>
+  <button class="button">REGISTER</button>
+</div>
+  </div>
+  
+<div class="outstanding"> 
+  We are outstanding college elit<br>
+  nec, consectetur adipiscing elit.Ut<br>
+  elit tellus,luctus nec ullamcorper<br>
+ mattis,pulvinar voluptate velit esse<br>
+ cillum
+</div>
+
+<div class="Useful">
+  <h3>Useful Links</h3><br>
+  Home <br>
+  About Us<br>
+  Our Courses<br>
+  Our Teachers<br>
+  Gallery<br>
+  Contact Us
+</div>
+
+<div class="Treanding" >
+  <h3>Trending courses </h3><br>
+  Bussiness management<br>
+  Arts & Humanities<br>
+  Mathematics for teaching<br>
+  Life Science & Medicine<br>
+  Natural Sciences<br>
+  Master of Business
+  </div>
+  
+
+  <div class="Info">
+    <h3>Contact Info</h3><br>
+<p><b>Address</b></p><br>
+123 Fifth Avenue,New York,NY 10160.<br>
+USA<br>
+<p><b>Phone</b></p>
++1 910-626-85255<br>
+<p><b>Email</b></p><br>
+contact@university.com
+  </div>
+  
+</body>
+</html>
+
